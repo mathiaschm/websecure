@@ -1,11 +1,78 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Data Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .random-text {
+            margin-top: 10px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
 </head>
 <body>
+
+    <div class="header">
+        <h1>Random Data Showcase</h1>
+    </div>
+
+    <div class="content">
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Random Image">
+            <h3>Random Name</h3>
+            <p class="random-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor justo vel turpis cursus, vel varius ex faucibus.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Random Image">
+            <h3>Another Random Name</h3>
+            <p class="random-text">Sed tristique metus in velit pretium, in placerat lorem mollis. Nulla convallis ac sapien at cursus. Ut vitae nisi id arcu.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Random Image">
+            <h3>Yet Another Random Name</h3>
+            <p class="random-text">Pellentesque fringilla, risus ut pretium mollis, ligula leo tincidunt lectus, at maximus libero nisi ac dolor.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Random Data Corp. All Rights Reserved.</p>
+    </div>
+
 </body>
 </html>
